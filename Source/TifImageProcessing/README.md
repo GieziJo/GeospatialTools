@@ -18,3 +18,6 @@ The code generates
 - a time series movie (example in [OutputExample/timeSeries.mp4](OutputExample/timeSeries.mp4))
 
 https://raw.githubusercontent.com/GieziJo/GeospatialTools/processBangladeshData/Source/TifImageProcessing/OutputExample/timeSeries.mp4
+
+https://github.com/GieziJo/GeospatialTools/assets/4385118/3a3a3b93-5f5d-4a65-ab1a-d3e79ce6e497
+
