@@ -16,8 +16,4 @@ The notebooks are organised as follow:
 The code generates
 - a `.csv` file containing the summary statistics for the districts (example in [OutputExample/DistrictInundationValues.csv](./OutputExample/DistrictInundationValues.csv)).
 - a time series movie (example in [OutputExample/timeSeries.mp4](OutputExample/timeSeries.mp4))
-
-https://raw.githubusercontent.com/GieziJo/GeospatialTools/processBangladeshData/Source/TifImageProcessing/OutputExample/timeSeries.mp4
-
-https://github.com/GieziJo/GeospatialTools/assets/4385118/3a3a3b93-5f5d-4a65-ab1a-d3e79ce6e497
-
+[timeSeries.webm](https://github.com/GieziJo/GeospatialTools/assets/4385118/11174afb-92e5-4b73-af11-9404b7c3a341)
