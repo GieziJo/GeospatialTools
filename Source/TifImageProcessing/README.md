@@ -16,3 +16,5 @@ The notebooks are organised as follow:
 The code generates
 - a `.csv` file containing the summary statistics for the districts (example in [OutputExample/DistrictInundationValues.csv](./OutputExample/DistrictInundationValues.csv)).
 - a time series movie (example in [OutputExample/timeSeries.mp4](OutputExample/timeSeries.mp4))
+
+OutputExample/timeSeries.mp4
