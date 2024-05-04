@@ -2,6 +2,6 @@ This Folder contains a version of the algorithm used for the [Global Flood Model
 
 The goal is the create a flood map based on the GFD algorithm (multi-day thresholding) for any shapefile/geojson (within reasonable size), for any period of time.
 
-Open `HistoricalTimeSeriesForGeometry.ipynb` and follow the instructions.
+Open [`HistoricalTimeSeriesForGeometry.ipynb`](HistoricalTimeSeriesForGeometry.ipynb) and follow the instructions.
 
 All original licences restrictions apply.
