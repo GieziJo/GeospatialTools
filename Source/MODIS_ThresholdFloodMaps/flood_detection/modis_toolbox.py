@@ -40,9 +40,9 @@ def join_collections(img_coll1, img_coll2):
 # Function the collects both the GA/GQ data products of MODIS Aqua, renames
 # the bands to readable versions, and joins the two collections into one.
 def get_aqua(roi, date_range):
-    aqua_gq = ee.ImageCollection("MODIS/006/MYD09GQ").filterDate(date_range)\
+    aqua_gq = ee.ImageCollection("MODIS/061/MYD09GQ").filterDate(date_range)\
                                                 .filterBounds(roi)
-    aqua_ga = ee.ImageCollection("MODIS/006/MYD09GA").filterDate(date_range)\
+    aqua_ga = ee.ImageCollection("MODIS/061/MYD09GA").filterDate(date_range)\
                                                 .filterBounds(roi)
     return ee.ImageCollection(join_collections(dfo_bands_gq(aqua_gq),
                                               dfo_bands_ga(aqua_ga)))
@@ -50,9 +50,9 @@ def get_aqua(roi, date_range):
 # Function the collects both the GA/GQ data products of MODIS Terra, renames
 # the bands to readable versions, and joins the two collections into one.
 def get_terra(roi, date_range):
-    terra_gq = ee.ImageCollection("MODIS/006/MOD09GQ").filterDate(date_range)\
+    terra_gq = ee.ImageCollection("MODIS/061/MOD09GQ").filterDate(date_range)\
                                                 .filterBounds(roi)
-    terra_ga = ee.ImageCollection("MODIS/006/MOD09GA").filterDate(date_range)\
+    terra_ga = ee.ImageCollection("MODIS/061/MOD09GA").filterDate(date_range)\
                                                 .filterBounds(roi)
     return ee.ImageCollection(join_collections(dfo_bands_gq(terra_gq),
                                               dfo_bands_ga(terra_ga)))
